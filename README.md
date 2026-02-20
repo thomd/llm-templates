@@ -7,7 +7,7 @@ To be used with the [llm CLI](https://llm.datasette.io/en/stable/) and the [llm-
 Create a git alias
 
 
-    git config --global alias.cimm '!f() { git diff --cached | llm -t gh:thomd/commit-message | git commit -F -; }; f'
+    git config --global alias.cim '!f() { git diff --cached | llm -t gh:thomd/commit-message | git commit -F -; }; f'
 
 
 and commit staged changes with a LLM generated commit message with
